@@ -1,0 +1,52 @@
+# Build output
+build/
+build-*/
+*/build/
+*/build-*/
+cmake-build-*/
+Tests/build/
+
+# CMake / Qt generated
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+*.cmake
+!CMakeLists.txt
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*_autogen/
+ClientApp/gui/build*/
+compile_commands.json
+
+# Qt Creator / IDE state
+.qtcreator/
+*.user
+*.user.*
+.vscode/
+.idea/
+
+# Object / binary
+*.o
+*.hw.o
+*.obj
+*.a
+*.so
+*.dylib
+*.exe
+
+# Top-level binaries produced by `make`
+/server
+/client
+/client-hw
+
+# Editor swap
+*.swp
+*~
+.DS_Store
+
+# Runtime artifacts
+scoreboard_*.txt
+credentials.txt
